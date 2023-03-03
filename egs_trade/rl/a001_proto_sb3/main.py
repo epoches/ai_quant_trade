@@ -96,7 +96,9 @@ def get_data(p_dir: str, train_time_lst: list, test_time_lst: list, skip_prep: b
 # ====================================================================================
 #                              Main Process
 # ====================================================================================
+
 def test_a_stock_trade(train_path, test_path, stock_code, init_account_balance, out_path):
+
     mdl = ProtoRLSb3(init_account_balance)
 
     # 1. train
